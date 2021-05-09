@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Job",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Job",
+        "notFound": "No Jobs found"
+      },
+      "created": "Ένα νέο Job έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Job έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Job έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Job {{ id }};"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "id": "ID",
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "task": "Task",
+      "employee": "Employee"
+    }
+  }
+}

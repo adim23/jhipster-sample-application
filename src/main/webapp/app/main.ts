@@ -27,6 +27,14 @@ import TranslationService from '@/locale/translation.service';
 import UserOAuth2Service from '@/entities/user/user.oauth2.service';
 /* tslint:disable */
 
+import RegionService from '@/entities/region/region.service';
+import CountryService from '@/entities/country/country.service';
+import LocationService from '@/entities/location/location.service';
+import DepartmentService from '@/entities/department/department.service';
+import TaskService from '@/entities/task/task.service';
+import EmployeeService from '@/entities/employee/employee.service';
+import JobService from '@/entities/job/job.service';
+import JobHistoryService from '@/entities/job-history/job-history.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -85,6 +93,14 @@ new Vue({
 
     userOAuth2Service: () => new UserOAuth2Service(),
     translationService: () => translationService,
+    regionService: () => new RegionService(),
+    countryService: () => new CountryService(),
+    locationService: () => new LocationService(),
+    departmentService: () => new DepartmentService(),
+    taskService: () => new TaskService(),
+    employeeService: () => new EmployeeService(),
+    jobService: () => new JobService(),
+    jobHistoryService: () => new JobHistoryService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

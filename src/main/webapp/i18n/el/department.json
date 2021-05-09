@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Department",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Department",
+        "notFound": "No Departments found"
+      },
+      "created": "Ένα νέο Department έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Department έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Department έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Department {{ id }};"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

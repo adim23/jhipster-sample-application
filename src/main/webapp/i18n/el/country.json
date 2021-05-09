@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Country",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Country",
+        "notFound": "No Countries found"
+      },
+      "created": "Ένα νέο Country έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Country έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Country έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Country {{ id }};"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "countryName": "Country Name",
+      "region": "Region"
+    }
+  }
+}

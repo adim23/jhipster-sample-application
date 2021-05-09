@@ -42,7 +42,9 @@
     "jwtSecretKey": "OGJkMWI1NTMzNTA0NTkwNzA1YjE1ODYwMmY1ZDk4MDQxYmVhOWE2OTVlYjAyMDA3ODU1OWQ1ZTRlZWE3ZTAxNWRmY2UzZTJiYjRhZjAwOTFiZWVhYjdkOGQ4ZmNlZmIwYTIzNzczMGQ2MWRjZjlkYTBjYzBkNTM2ZjVlNTBiOWY=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory"],
+    "lastLiquibaseTimestamp": 1620551442000
   },
   "git-provider": "GitHub",
   "git-company": "adim23",
