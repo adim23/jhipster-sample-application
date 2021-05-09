@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "region": {
+      "home": {
+        "title": "Regions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Region",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Region",
+        "notFound": "No Regions found"
+      },
+      "created": "Ένα νέο Region έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Region έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Region έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Region {{ id }};"
+      },
+      "detail": {
+        "title": "Region"
+      },
+      "id": "ID",
+      "regionName": "Region Name"
+    }
+  }
+}

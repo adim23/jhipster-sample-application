@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Location",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Location",
+        "notFound": "No Locations found"
+      },
+      "created": "Ένα νέο Location έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Location έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Location έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Location {{ id }};"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "id": "ID",
+      "streetAddress": "Street Address",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

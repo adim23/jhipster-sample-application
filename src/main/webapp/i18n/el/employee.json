@@ -1,0 +1,36 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Employee",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Employee",
+        "notFound": "No Employees found"
+      },
+      "created": "Ένα νέο Employee έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Employee έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Employee έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Employee {{ id }};"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}
