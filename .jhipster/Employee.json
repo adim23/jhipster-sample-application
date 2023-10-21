@@ -1,0 +1,114 @@
+{
+  "applications": "*",
+  "changelogDate": "20231021114124",
+  "documentation": "The Employee entity.",
+  "dto": "mapstruct",
+  "entityTableName": "employee",
+  "fields": [
+    {
+      "documentation": "The firstname attribute.",
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hireDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "salary",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "commissionPct",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "longF",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "intF",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "boolF",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "bigF",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "durF",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "localDF",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "zoneDF",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "uuF",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "pict",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image",
+      "fieldValidateRules": ["maxbytes"],
+      "fieldValidateRulesMaxbytes": "20971520"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "cv",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Employee",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "employee",
+      "relationshipName": "job",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "employee",
+      "relationshipName": "manager",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "documentation": "Another side of the same relationship",
+      "otherEntityName": "department",
+      "relationshipName": "department",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
