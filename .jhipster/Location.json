@@ -1,0 +1,45 @@
+{
+  "applications": "*",
+  "changelogDate": "20231021113824",
+  "documentation": "not an ignored comment",
+  "dto": "mapstruct",
+  "entityTableName": "location",
+  "fields": [
+    {
+      "fieldName": "streetAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "stateProvince",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Location",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "country",
+      "relationshipName": "country",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "department",
+      "otherEntityRelationshipName": "location",
+      "relationshipName": "department",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

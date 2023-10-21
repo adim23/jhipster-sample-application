@@ -1,0 +1,18 @@
+{
+  "applications": "*",
+  "changelogDate": "20231021113624",
+  "dto": "mapstruct",
+  "entityTableName": "region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Region",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

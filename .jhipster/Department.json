@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20231021113924",
+  "dto": "mapstruct",
+  "entityTableName": "department",
+  "fields": [
+    {
+      "fieldName": "departmentName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Department",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "documentation": "A relationship",
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "department",
+      "relationshipName": "employee",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "location",
+      "relationshipName": "location",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "location",
+      "otherEntityRelationshipName": "department",
+      "relationshipName": "location",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
